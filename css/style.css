@@ -1,6 +1,20 @@
 html{
-    background-image: url(..img/homebg.jpg);
+    background-image:url(../img/homebg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+.box{
+    margin-top: 50px;
+    margin-left: -70px;
+    margin-bottom: 70px;
+    box-align: center;
+    height: 200px;
+    width: 200px;
+    background-color:rgba(70, 131, 180, 0.199);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 7px;
+}  
