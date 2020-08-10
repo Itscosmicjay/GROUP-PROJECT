@@ -1,0 +1,62 @@
+html{
+    background-image:url(../img/contactbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: unset;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  nav{
+      background-color:rgba(0, 0, 255, 0.466);
+      height: 40px;
+      width: 100%;
+      opacity: .8;
+      display: block;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-shadow: rgba(0, 0, 255, 0.466);
+  }
+  label.logo{
+      color: white;
+      font-size: 30px;
+      line-height: 40px;
+      padding: 0 100px;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      background-color: rgba(0, 0, 255, 0.466);
+    opacity: .8; 
+  }
+  nav ul{
+    float:right;
+    margin-left: 40px;
+    margin-right: 400px;
+    display: block; 
+  }
+   nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 5px;
+    margin-right: 2px;
+    opacity: .8;
+    text-align: right;
+  
+  }
+   nav ul li a{
+    color:white;
+    font-size: 20px;
+    padding: 10px auto;
+    border-radius: 7px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background-color: gray;
+  }
