@@ -1,63 +1,99 @@
 html{
-    background-image:url(../img/aboutbg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: unset;
-    margin-top: 0px;
+  background-color: rgba(20, 83, 155, 0.918);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: unset;
 }
 *{
-    padding: 0px;
-    margin: 0px;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-  }
-  body{
-    font-family: 'Times New Roman', Times, serif;
-  }
-  nav{
-      background-color:rgba(0, 0, 255, 0.466);
-      height: 40px;
-      width: 100%;
-      opacity: .8;
-      display: block;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      text-shadow: rgba(0, 0, 255, 0.466);
-  }
-  label.logo{
-      color: white;
-      font-size: 30px;
-      line-height: 40px;
-      padding: 0 100px;
-      font-weight: bold;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      background-color: rgba(0, 0, 255, 0.466);
-    opacity: .8; 
-  }
-  nav ul{
-    float:right;
-    margin-left: 40px;
-    margin-right: 400px;
-    display: block; 
-  }
-   nav ul li{
-    display: inline-block;
-    line-height: 40px;
-    margin: 0 5px;
-    margin-right: 2px;
-    opacity: .8;
-    text-align: right;
-  
-  }
-   nav ul li a{
-    color:white;
-    font-size: 20px;
-    padding: 10px auto;
-    border-radius: 7px;
-    text-transform: uppercase;
-  }
-  a.active,a:hover{
-    background-color: gray;
-  }
+padding: 0px;
+margin: 0px;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+.box nav header{
+align-items:flex-start;
+justify-content: flex-end; 
+}
+body{
+font-family: 'Times New Roman', Times, serif;
+}
+
+.box1{
+background-image: url(../img/home.jpg);
+background-position:unset;
+background-size: cover; 
+width: 1000px;
+height: 600px;
+border: whitesmoke;
+margin: auto;
+margin-top:100px;
+}
+.box1 .box{
+width: 600px;
+height: 400px;
+padding-left: 0px;
+margin-left:0px;
+margin-top: 0px;
+border-top-left-radius:0px;
+border-bottom-left-radius:100px;
+border-top-right-radius:200px;
+border-bottom-right-radius:200px;
+background-image: url(../img/homeimg.jpg);
+background-position:unset;
+background-size: cover; 
+}
+.box1.box nav{
+background-color:rgba(0, 0, 255, 0.466);
+height: 0px;
+width: 60%;
+opacity: .8;
+display:inline-flex;
+margin-top: 0px;
+margin-bottom: 0px;
+text-shadow: rgba(0, 0, 255, 0.466);
+margin-right:100px;
+justify-content:center;
+padding-left:40px;
+}
+.box label.logo{
+color: white;
+font-size: 30px;
+float:inline-end;
+line-height: 20px;
+padding-left: auto;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left:auto;
+background-color: rgba(0, 0, 255, 0.466);
+opacity: .8;
+margin-right:0px;
+}
+.box nav header ul{
+justify-content: flex-end;
+margin-left:auto;
+margin-right: 2px;
+padding-left: 100px;
+left: 39rem;
+position: fixed; 
+}
+.box nav ul li{
+display: inline-block;
+line-height: 40px;
+margin-left: auto;
+opacity: .8;
+text-align: right;
+justify-content: flex-end;
+}
+.box nav ul li a{
+color:white;
+font-size: 20px;
+padding: 10px auto;
+border-radius: 7px;
+text-transform: uppercase;
+margin-right: auto;
+}
+a.active,a:hover{
+background-color:rgba(128, 0, 128, 0.616);
+}

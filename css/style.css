@@ -1,5 +1,5 @@
 html{
-    background-image:url(../img/homebg.jpg);
+    background-color: rgba(20, 83, 155, 0.918);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: unset;
@@ -11,52 +11,124 @@ html{
   list-style: none;
   box-sizing: border-box;
 }
+ .box nav header{
+  align-items:flex-start;
+  justify-content: flex-end; 
+}
 body{
   font-family: 'Times New Roman', Times, serif;
 }
-nav{
-    background-color:rgba(0, 0, 255, 0.466);
-    height: 40px;
-    width: 100%;
-    opacity: .8;
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-shadow: rgba(0, 0, 255, 0.466);
+
+.box1{
+  background-image: url(../img/home.jpg);
+  background-position:unset;
+  background-size: cover; 
+  width: 1000px;
+  height: 600px;
+  border: whitesmoke;
+  margin: auto;
+  margin-top:100px;
 }
-label.logo{
-    color: white;
-    font-size: 30px;
-    line-height: 40px;
-    padding: 0 100px;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: rgba(0, 0, 255, 0.466);
-  opacity: .8; 
+h2{
+  text-align: center;
+  left: 57rem;
+  position: fixed;
 }
-nav ul{
-  float:right;
-  margin-left: 40px;
-  margin-right: 400px;
-  display: block; 
-}
- nav ul li{
+button {
+  appearance: button;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color:white;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
   display: inline-block;
-  line-height: 40px;
-  margin: 0 5px;
-  margin-right: 2px;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color:rgba(105, 23, 105, 0.836);
+  box-sizing: border-box;
+  margin: 0em;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: none;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+  border-image: initial;
+  left: 57rem;
+  position: fixed;
+  border-radius: 15px;
   opacity: .8;
-  text-align: right;
+}
+.box1 .box{
+  width: 600px;
+  height: 400px;
+  padding-left: 0px;
+  margin-left:0px;
+  margin-top: 0px;
+  border-top-left-radius:0px;
+  border-bottom-left-radius:100px;
+  border-top-right-radius:200px;
+  border-bottom-right-radius:200px;
+  background-image: url(../img/homeimg.jpg);
+  background-position:unset;
+  background-size: cover; 
+}
+.box1.box nav{
+  background-color:rgba(0, 0, 255, 0.466);
+  height: 0px;
+  width: 60%;
+  opacity: .8;
+  display:inline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-shadow: rgba(0, 0, 255, 0.466);
+  margin-right:100px;
+  justify-content:center;
+  padding-left:40px;
+}
+.box label.logo{
+  color: white;
+  font-size: 30px;
+  float:inline-end;
+  line-height: 20px;
+  padding-left: auto;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left:auto;
+  background-color: rgba(0, 0, 255, 0.466);
+  opacity: .8;
+  margin-right:0px;
 
 }
- nav ul li a{
-  color:white;
-  font-size: 20px;
-  padding: 10px auto;
-  border-radius: 7px;
-  text-transform: uppercase;
+.box nav header ul{
+justify-content: flex-end;
+margin-left:auto;
+padding-left: 100px;
+left: 39rem;
+position: fixed; 
+}
+.box nav ul li{
+display: inline-block;
+line-height: 40px;
+margin-left: auto;
+opacity: .8;
+text-align: right;
+justify-content: flex-end;
+}
+.box nav ul li a{
+color:white;
+font-size: 20px;
+padding: 10px auto;
+border-radius: 7px;
+text-transform: uppercase;
+margin-right: auto;
 }
 a.active,a:hover{
-  background-color: gray;
+background-color:rgba(128, 0, 128, 0.616);
 }
