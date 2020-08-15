@@ -23,23 +23,45 @@ body{
   background-position:unset;
   background-size: cover; 
   width: 1000px;
-  height: 600px;
+  height: 550px;
   border: whitesmoke;
   margin: auto;
   margin-top:100px;
 }
-h2{
-  justify-items: flex-end;
-  text-align: end;
-  left: 80rem;
-  position: unset;
+.box h4{
+  justify-content: flex-end;
+  left: 25rem;
+  position: relative;
   margin-left: 30px;
   margin-top: 30px;
   margin-right: 0px;
   font-weight: bold;
-  color:wheat;
+  background-color: rgba(0, 0, 0, 0.377);
+  color:white;
+  opacity: .8;
   font-size: 30px;
-  padding-left: 500px;
+} 
+.box h5{
+  justify-content: flex-end;
+  left: 25rem;
+  position: relative;
+  margin-left: 30px;
+  margin-right: 0px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.342);
+  color: whitesmoke;
+  font-size: 22px;
+}
+.box h6{
+  justify-content: flex-end;
+  left: 32rem;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  font-weight: bold;
+  color:wheat;
+  font-size: 20px;
 }
  .box1 .box button {
   appearance: button;
@@ -63,6 +85,7 @@ h2{
   padding: 1px 6px;
   border-width: 2px;
   border-style: none;
+  margin-left: 150px;
   left: 40rem;
   position: fixed;
   border-radius: 15px;
@@ -110,7 +133,6 @@ h2{
   background-color: rgba(0, 0, 255, 0.466);
   opacity: .8;
   margin-right:0px;
-
 }
 .box nav header ul{
   display: flex;

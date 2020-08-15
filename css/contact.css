@@ -23,23 +23,62 @@ background-image: url(../img/home.jpg);
 background-position:unset;
 background-size: cover; 
 width: 1000px;
-height: 600px;
+height: 550px;
 border: whitesmoke;
 margin: auto;
 margin-top:100px;
 }
-h2{
-justify-items: flex-end;
-text-align: end;
-left: 80rem;
-position: unset;
+.box h4{
+justify-content: flex-end;
+left: 25rem;
+position: relative;
 margin-left: 30px;
 margin-top: 30px;
 margin-right: 0px;
 font-weight: bold;
-color:wheat;
+background-color: rgba(0, 0, 0, 0.377);
+color:white;
+opacity: .8;
 font-size: 30px;
-padding-left: 500px;
+} 
+.box h5{
+justify-content: flex-end;
+left: 25rem;
+position: relative;
+margin-left: 30px;
+margin-right: 0px;
+font-weight: bold;
+background-color: rgba(0, 0, 0, 0.342);
+color: whitesmoke;
+font-size: 22px;
+}
+.box1 .box button {
+appearance: button;
+text-rendering: auto;
+color:white;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display:flex;
+justify-content: flex-end;
+text-align: center;
+align-items: flex-start;
+cursor: default;
+background-color:rgba(105, 23, 105, 0.836);
+box-sizing: content-box;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+font-weight: bold;
+padding: 1px 6px;
+border-width: 2px;
+border-style: none;
+margin-left: 150px;
+left: 40rem;
+position: fixed;
+border-radius: 15px;
+opacity: .8;
 }
 .box1{
 display: flex;
@@ -55,7 +94,7 @@ border-top-left-radius:0px;
 border-bottom-left-radius:100px;
 border-top-right-radius:200px;
 border-bottom-right-radius:200px;
-background-image: url(../img/homeimg.jpg);
+background-image: url(../img/contactimg.jpg);
 background-position:unset;
 background-size: cover; 
 }
@@ -69,7 +108,7 @@ justify-content:flex-start;
 text-shadow: rgba(0, 0, 255, 0.466);
 }
 .box label.logo{
-color: white;
+color:whitesmoke;
 display: flex;
 justify-content: flex-start;
 font-size: 30px;
@@ -80,10 +119,9 @@ font-weight: bold;
 margin-top: 0px;
 margin-bottom: 0px;
 margin-left:auto;
-background-color: rgba(0, 0, 255, 0.466);
+background-color: rgba(0, 0, 0, 0.342);
 opacity: .8;
 margin-right:0px;
-
 }
 .box nav header ul{
 display: flex;
